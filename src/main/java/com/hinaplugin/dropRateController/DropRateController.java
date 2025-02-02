@@ -27,7 +27,7 @@ public final class DropRateController extends JavaPlugin {
 
         final PluginCommand command = this.getCommand("controller");
         if (command != null){
-            command.setExecutor(new DropRateController());
+            command.setExecutor(new Commands());
         }
     }
 
